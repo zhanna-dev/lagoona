@@ -46,5 +46,34 @@
 
 @font-face {
     font-family: 'Muller',  serif;
-    src: url();
+    src: url(/fonts/MullerRegular.woff2);
 }
+@font-face {
+    font-family: 'Muller',  serif;
+    src: url(/fonts/MullerRegular.woff);
+}
+@font-face {
+    font-family: 'Muller',  serif;
+    src: url(/fonts/MullerMedium.woff2);
+}
+@font-face {
+    font-family: 'Muller',  serif;
+    src: url(/fonts/MullerMedium.woff);
+}
+@font-face {
+    font-family: 'Muller',  serif;
+    src: url(/fonts/MullerLight.woff2);
+}
+@font-face {
+    font-family: 'Muller',  serif;
+    src: url(/fonts/MullerLight.woff);
+}
+@font-face {
+    font-family: 'Muller',  serif;
+    src: url(/fonts/MullerBold.woff2);
+}
+@font-face {
+    font-family: 'Muller',  serif;
+    src: url(/fonts/MullerBold.woff);
+}
+
