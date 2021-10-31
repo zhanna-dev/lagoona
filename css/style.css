@@ -239,7 +239,7 @@ a {
 }
 
 button {
-  display: -webkit-inline-flex;
+  display: inline-flex;
   color: inherit;
   font: inherit;
   background: none;
@@ -259,8 +259,6 @@ button {
 .logo-title {
   font-family: "Lora";
   font-size: 38px;
-  background: url(../img/logo.webp) no-repeat;
-  
 }
 .logo-bg {
   width: 260px;
@@ -271,6 +269,3 @@ button {
   background: url(../img/logo.png) no-repeat;
 }
 /****************************header-end**************************************/
-
-
-
