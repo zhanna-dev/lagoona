@@ -55,36 +55,35 @@
 }
 
 @font-face {
-  font-family: "Muller", serif;
-  src: url(/fonts/MullerRegular.woff2);
+  font-family: "Muller";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/MullerRegular.woff2) format("woff2");
 }
+
 @font-face {
-  font-family: "Muller", serif;
-  src: url(/fonts/MullerRegular.woff);
+  font-family: "Muller";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/MullerMedium.woff2) format("woff2");
 }
+
 @font-face {
-  font-family: "Muller", serif;
-  src: url(/fonts/MullerMedium.woff2);
+  font-family: "Muller";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../fonts/MullerLight.woff2) format("woff2");
 }
+
 @font-face {
-  font-family: "Muller", serif;
-  src: url(/fonts/MullerMedium.woff);
-}
-@font-face {
-  font-family: "Muller", serif;
-  src: url(/fonts/MullerLight.woff2);
-}
-@font-face {
-  font-family: "Muller", serif;
-  src: url(/fonts/MullerLight.woff);
-}
-@font-face {
-  font-family: "Muller", serif;
-  src: url(/fonts/MullerBold.woff2);
-}
-@font-face {
-  font-family: "Muller", serif;
-  src: url(/fonts/MullerBold.woff);
+  font-family: "Muller";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/MullerBold.woff2) format("woff2");
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -255,17 +254,116 @@ button {
 
 /****************************common-styles**************************************/
 /****************************header-start**************************************/
-
-.logo-title {
-  font-family: "Lora";
-  font-size: 38px;
+.header {
+  padding: 30px 0 70px;
 }
-.logo-bg {
-  width: 260px;
+
+.header-top-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.logo {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.logo-img {
+  width: 261px;
   height: 54px;
+  object-fit: contain;
+  border-radius: 15px;
+}
+
+h1 {
+  font-family: "Lora" serif;
+  font-weight: 700;
+  font-size: 32px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  background: url(../img/logo.png) no-repeat;
+  color: #fff;
+  padding-left: 20px;
+  position: absolute;
+  padding-left: 10px;
 }
+
+h1 > span {
+  font-size: 0.35em;
+}
+
+.header-tel {
+  font-weight: 500;
+  font-size: 20px;
+  color: #666666;
+}
+.header-tel:hover {
+  color: rgba(204, 153, 51, 1);
+}
+
+.header-link {
+  color: #cc9933;
+}
+.header-link::before {
+  content: "";
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-bootom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 15px;
+  margin-top: 30px;
+  padding: 14px 45px;
+}
+
+.header-nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-nav-items > li {
+  padding: 14px;
+  font-size: 16px;
+  color: rgba(102, 102, 102, 1);
+}
+.header-nav-items > li:hover {
+  color: rgba(204, 153, 51, 1);
+}
+
+.header-btn-ms {
+  padding: 13px 20px;
+  border: 1px solid #cc9933;
+  border-radius: 10px;
+}
+
+.header-btn-ms:hover {
+  background: rgba(204, 153, 51, 1);
+  color: #ffffff;
+}
+
+.header-btn-lg {
+  border: 1px solid #cc9933;
+  border-radius: 10px;
+  padding: 13px 20px;
+}
+.header-btn-lg:hover {
+  background: rgba(204, 153, 51, 1);
+  color: #ffffff;
+}
+
+.header-btn-wrap {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
 /****************************header-end**************************************/
