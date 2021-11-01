@@ -303,21 +303,24 @@ h1 > span {
 }
 
 .header-link {
-  color: #cc9933;
+  color: rgba(204, 153, 51, 1);
+}
+.header-link:hover {
+  color: rgba(233, 196, 121, 1);
 }
 
 .header-link::before {
   content: "\1F816";
   font-size: 18px;
   display: inline-flex;
-  border: solid;
+  border-right: 2px solid;
+  margin-right: 5px;
 }
 
 .header-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .header-bootom {
