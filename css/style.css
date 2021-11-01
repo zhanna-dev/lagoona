@@ -305,14 +305,19 @@ h1 > span {
 .header-link {
   color: #cc9933;
 }
+
 .header-link::before {
-  content: "";
+  content: "\1F816";
+  font-size: 18px;
+  display: inline-flex;
+  border: solid;
 }
 
 .header-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 
 .header-bootom {
