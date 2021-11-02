@@ -441,6 +441,10 @@ h1 > span {
   color: rgba(255, 204, 102, 1);
 }
 
+.hero-descr:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
 .hero-descr::after {
   content: "\276F";
   margin-left: 5px;
