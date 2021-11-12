@@ -740,7 +740,7 @@ h1 > span {
 .contacts-item {
   display: flex;
   justify-content: space-around;
-  align-items: flex-end
+  align-items: flex-end;
   border-bottom: 1px solid #c4c4c4;
 }
 .contacts-elem {
