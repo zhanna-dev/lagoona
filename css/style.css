@@ -640,9 +640,7 @@ h1 > span {
   object-fit: cover;
   position: relative;
 }
-.link-white-lg {
-  position: absolute;
-}
+
 /* .link-white-lg::after {
   content: "\276F";
   margin-left: 5px;
