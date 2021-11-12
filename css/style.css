@@ -270,12 +270,17 @@ button {
   border-color: #e9c479;
 }
 
+.link {
+  padding: 7px 0;
+}
+
 .link-dark {
   color: #cc9933;
   padding: 6px 6px;
 }
 .link-dark:hover {
   color: #a47312;
+  text-decoration: underline;
 }
 .link-light {
   color: #ffcc66;
@@ -286,6 +291,10 @@ button {
 .link-white {
   color: #ffffff;
 }
+.link-white:hover {
+  text-decoration: underline;
+}
+
 .link-arrow::before {
   content: "\1F816";
   font-size: 18px;
@@ -716,9 +725,12 @@ h1 > span {
   margin-bottom: 26px;
 }
 .contacts-wrap {
+  width: 415px;
+  height: 528px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
 }
 .contacts-img {
   width: 653px;
@@ -740,6 +752,8 @@ h1 > span {
   justify-content: space-around;
   align-items: flex-start;
   border-bottom: 1px solid #c4c4c4;
+  width: 100%;
+  padding: 20px 0;
 }
 .contacts-elem {
   width: 40%;
@@ -750,12 +764,13 @@ h1 > span {
 
 .contacts-elem-box {
   width: 60%;
+ 
 }
 
 .btn-contacts {
   width: 235px;
   height: 70px;
-  left: 0;
+  position: absolute;
   bottom: 0;
 }
 /****************************contacts-end**************************************/
