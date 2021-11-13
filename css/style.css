@@ -312,6 +312,14 @@ button {
   text-decoration: underline;
 }
 
+.link-grey {
+  color:  #666666;
+}
+
+.link-grey:hover {
+text-decoration: underline;
+}
+
 .container {
   width: 100%;
   max-width: 1180px;
@@ -384,13 +392,16 @@ h1 {
   color: #fff;
   position: absolute;
   padding-left: 10px;
-}
+} 
+/* h1:hover {
+  text-decoration: underline;
+} */
 
 h1 > span {
   font-size: 0.35em;
 }
 
-.header-tel {
+.link-grey {
   font-weight: 500;
   font-size: 20px;
   color: #666666;
@@ -413,6 +424,11 @@ h1 > span {
   border-radius: 15px;
   margin-top: 30px;
   padding: 14px 45px;
+
+}
+.header-nav {
+  display: flex;
+  justify-content: space-between;
 }
 
 .header-nav-items {
@@ -422,7 +438,7 @@ h1 > span {
   gap: 45px;
 }
 .header-nav-items > li {
-  padding: 14px;
+  padding: 7px;
   font-size: 16px;
   color: rgba(102, 102, 102, 1);
 }
@@ -491,12 +507,15 @@ h1 > span {
   flex-direction: column;
   align-items: center;
   gap: 23px;
+  border-radius: 15px;
 }
 
 .hero-card-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 15px;
+
 }
 
 .hero-title-box {
@@ -515,6 +534,7 @@ h1 > span {
     rgba(48, 64, 89, 0.84) -2.9%,
     rgba(53, 65, 83, 0) 65.7%
   );
+  border-radius: 15px;
 }
 
 .hero-card {
@@ -764,7 +784,6 @@ h1 > span {
 
 .contacts-elem-box {
   width: 60%;
- 
 }
 
 .btn-contacts {
@@ -858,15 +877,20 @@ h1 > span {
   gap: 20px;
 }
 /****************************footer-end**************************************/
-
+.tour {
+  background: #E9E9E9;
+  padding: 38px 45px 70px 45px;
+  border-radius: 15px;
+  margin: 35px 0 70px;
+}
 form {
-  margin: 1000px auto;
-  width: 1000px;
+  margin:0 auto;
   display: flex;
   align-items: center;
   padding: 50px;
   border-radius: 15px;
   background-color: #fff;
+  margin-top: 20px;
 }
 form > label {
   padding: 20px;
@@ -874,6 +898,15 @@ form > label {
 }
 .label-lg {
   width: 210px;
+}
+
+.label-lg>span {
+font-weight: 400;
+font-size:  12px;
+}
+.label-lg>select{
+  font-size: 16px;
+  font-weight: 400;
 }
 .label-sm {
   width: 160px;

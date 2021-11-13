@@ -27,19 +27,19 @@
                 alt="logo of Lagoona"
               />
             </a>
-            <a class="header-tel" href="tel:+74953225448">+7 495 322 54 48</a>
+            <a class="link-grey" href="tel:+74953225448">+7 495 322 54 48</a>
           </div>
           <a class="link link-dark link-arrow" href="#">Личный кабинет</a>
         </div>
         <div class="header-bootom">
           <nav class="header-nav">
             <ul class="header-nav-items">
-              <div><a href="id-about">О&nbsp;нас</a></div>
-              <div><a href="#">Услуги</a></div>
-              <div><a href="#">Преимущества</a></div>
-              <div><a href="#">Размещение</a></div>
-              <div><a href="#">Блог</a></div>
-              <div><a href="#">Контакты</a></div>
+              <li><a href="#about">О&nbsp;нас</a></li>
+              <li><a href="#services">Услуги</a></li>
+              <li><a href="#benefits">Преимущества</a></li>
+              <li><a href="#hosting">Размещение</a></li>
+              <li><a href="#">Блог</a></li>
+              <li><a href="#contacts">Контакты</a></li>
             </ul>
           </nav>
           <div class="header-btn-wrap">
@@ -363,7 +363,7 @@
               <div class="hosting-card-text">
                 <div class="hosting-subtitle-box">
                   <h3 class="section-subtitle hosting-subtitle">
-                    <span>от</span>&nbsp;4&nbsp;698&nbsp;р&nbsp;/ночь
+                    <span>от</span>&nbsp; 4&nbsp;698&nbsp;р&nbsp;/ночь
                   </h3>
                   <div class="hosting-starts-wrap">
                     <svg
@@ -447,7 +447,7 @@
               <div class="hosting-card-text">
                 <div class="hosting-subtitle-box">
                   <h3 class="section-subtitle hosting-subtitle">
-                    <span>от</span>&nbsp;6&nbsp;254&nbsp;р&nbsp;/ ночь
+                    <span>от</span>&nbsp; 6&nbsp;254&nbsp;р&nbsp;/ ночь
                   </h3>
                   <div class="hosting-starts-wrap">
                     <svg
@@ -531,7 +531,7 @@
               <div class="hosting-card-text">
                 <div class="hosting-subtitle-box">
                   <h3 class="section-subtitle hosting-subtitle">
-                    <span>от</span>&nbsp;6&nbsp;254&nbsp;р&nbsp;/ ночь
+                    <span>от</span>&nbsp; 6&nbsp;254&nbsp;р&nbsp;/ ночь
                   </h3>
                   <div class="hosting-starts-wrap">
                     <svg
@@ -615,7 +615,7 @@
               <div class="hosting-card-text">
                 <div class="hosting-subtitle-box">
                   <h3 class="section-subtitle hosting-subtitle">
-                    <span>от</span>&nbsp;6&nbsp;320&nbsp;р&nbsp;/ ночь
+                    <span>от</span>&nbsp; 6&nbsp;320&nbsp;р&nbsp;/ ночь
                   </h3>
                   <div class="hosting-starts-wrap">
                     <svg
@@ -699,7 +699,7 @@
               <div class="hosting-card-text">
                 <div class="hosting-subtitle-box">
                   <h3 class="section-subtitle hosting-subtitle">
-                    <span>от</span>6&nbsp;457&nbsp;р&nbsp;/ ночь
+                    <span>от</span> 6&nbsp;457&nbsp;р&nbsp;/ ночь
                   </h3>
                   <div class="hosting-starts-wrap">
                     <svg
@@ -783,7 +783,7 @@
               <div class="hosting-card-text">
                 <div class="hosting-subtitle-box">
                   <h3 class="section-subtitle hosting-subtitle">
-                    <span>от</span>6&nbsp;320&nbsp;р&nbsp;/ ночь
+                    <span>от</span> 6&nbsp;320&nbsp;р&nbsp;/ ночь
                   </h3>
                   <div class="hosting-starts-wrap">
                     <svg
@@ -867,7 +867,7 @@
               <div class="hosting-card-text">
                 <div class="hosting-subtitle-box">
                   <h3 class="section-subtitle hosting-subtitle">
-                    <span>от</span>6&nbsp;505&nbsp;р&nbsp;/ ночь
+                    <span>от</span> 6&nbsp;505&nbsp;р&nbsp;/ ночь
                   </h3>
                   <div class="hosting-starts-wrap">
                     <svg
@@ -951,7 +951,7 @@
               <div class="hosting-card-text">
                 <div class="hosting-subtitle-box">
                   <h3 class="section-subtitle hosting-subtitle">
-                    <span>от</span>6&nbsp;824&nbsp;р&nbsp;/ ночь
+                    <span>от</span> 6&nbsp;824&nbsp;р&nbsp;/ ночь
                   </h3>
                   <div class="hosting-starts-wrap">
                     <svg
@@ -1042,7 +1042,40 @@
         </div>
       </section>
       <section id="tour" class="tour">
-        <div class="container"></div>
+        <div class="container">
+          <h2 class="section-title">Хочу тур</h2>
+          <form>
+            <label class="label-lg">
+              <span>Город вылета</span>
+              <select name="city">
+                <span></span>
+                <option>Санкт-петербург</option>
+                <option>City2</option>
+                <option>City3</option>
+              </select>
+            </label>
+            <label class="label-lg">
+              <select name="country">
+                <option>Country1</option>
+                <option>Country2</option>
+                <option>Country3</option>
+              </select>
+            </label>
+            <label class="label-sm">
+              <span>Дата прибытия</span>
+              <input name="date" type="date" />
+            </label>
+            <label class="label-sm">
+              <span>Ночей</span>
+              <input name="days" type="number" value="6" min="4" max="19" />
+            </label>
+            <label class="label-sm">
+              <span>Туристы</span>
+              <input name="people" type="number" value="2" min="1" max="8" />
+            </label>
+            <button type="submit" class="btn btn-primary">Найти</button>
+          </form>
+        </div>
       </section>
       <section id="contacts" class="contacts">
         <div class="container">
@@ -1168,36 +1201,6 @@
       </div>
     </footer>
 
-    <form>
-      <label class="label-lg">
-        <span>город вылета</span>
-        <select name="city">
-          <option>City1</option>
-          <option>City2</option>
-          <option>City3</option>
-        </select>
-      </label>
-      <label class="label-lg">
-        <span>Страна</span>
-        <select name="country">
-          <option>Country1</option>
-          <option>Country2</option>
-          <option>Country3</option>
-        </select>
-      </label>
-      <label class="label-sm">
-        <span>Дата прибытия</span>
-        <input name="date" type="date" />
-      </label>
-      <label class="label-sm">
-        <span>Ночей</span>
-        <input name="days" type="number" value="6" min="4" max="19" />
-      </label>
-      <label class="label-sm">
-        <span>Туристы</span>
-        <input name="people" type="number" value="2" min="1" max="8" />
-      </label>
-      <button type="submit" class="btn btn-primary">Найти</button>
-    </form>
+    
   </body>
 </html>
