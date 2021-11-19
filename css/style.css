@@ -969,8 +969,8 @@ form button {
   .btn {
     padding: 6px 6px;
   }
-  .header-btn-wrap {
-    gap: 30px;
+  .hero {
+    padding: 25px 20px;
   }
   .section-title {
     font-size: 30px;
@@ -989,6 +989,43 @@ form button {
     display: flex;
     justify-content: space-between;
     gap: 0;
+  }
+  .about {
+    padding: 25px 20px;
+  }
+  .services-cards {
+    gap: 15px;
+  }
+  .services {
+    padding: 35px 20px;
+  }
+  .services-card {
+    width: 49%;
+  }
+  .services-card-img {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .benefits {
+    padding: 25px 20px;
+  }
+  .hosting {
+    padding: 25px 8px;
+  }
+  .hosting-card {
+    width: 30%;
+  }
+  .hosting-img {
+    width: 100%;
+    height: auto;
+  }
+  .hosting-card-lg {
+    width: 30%;
+    height: auto;
+  }
+  .contacts-img {
+    width: 62%;
+    height: auto;
   }
 }
 
