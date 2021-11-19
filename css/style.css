@@ -1053,6 +1053,29 @@ form button {
   .services-card {
     width: 48%;
   }
+  .services-card-box {
+    padding: 13px 33px 24px 23px;
+  }
+  .benefits {
+    padding: 20px 10px;
+  }
+  .benefits-card {
+    width: 31%;
+    padding: 30px;
+  }
+  .hosting {
+    padding: 15px 8px;
+  }
+  .hosting-title {
+    margin-bottom: 15px;
+  }
+  .hosting-cards {
+    gap: 13px;
+  }
+  .hosting-subtitle {
+    margin-bottom: 10px;
+  }
+  
 }
 
 /* // `md` applies to medium devices (landscape phones, less than 768px) */
