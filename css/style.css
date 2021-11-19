@@ -972,6 +972,24 @@ form button {
   .header-btn-wrap {
     gap: 30px;
   }
+  .section-title {
+    font-size: 30px;
+  }
+  .hero-heading {
+    font-size: 30px;
+  }
+  .hero-subheading {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  .hero-card-img {
+    width: 95%;
+  }
+  .hero-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
+  }
 }
 
 /* // `lg` applies to large devices (tablets, less than 992px) */
