@@ -1037,6 +1037,22 @@ form button {
   .container {
     max-width: 960px;
   }
+  .header-nav-items {
+    gap: 18px;
+  }
+  .header-btn-wrap {
+    gap: 18px;
+  }
+  .hero-subheading {
+    font-size: 25px;
+    margin-bottom: 2px;
+  }
+  .hero-heading {
+    font-size: 25px;
+  }
+  .services-card {
+    width: 48%;
+  }
 }
 
 /* // `md` applies to medium devices (landscape phones, less than 768px) */
