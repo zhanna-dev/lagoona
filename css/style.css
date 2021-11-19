@@ -1075,9 +1075,24 @@ form button {
   .hosting-subtitle {
     margin-bottom: 10px;
   }
+  .tour {
+    padding: 10px 20px 10px 20px;
+  }
+  .form > label {
+    padding: 10px;
+  }
+  .label-lg {
+    width: 30%;
+  }
+  .contacts-box {
+    padding: 27px 10px;
+    gap: 25px;
+  }
+  .tour {
+    margin: 26px 0 35px;
+  }
   
 }
-
 /* // `md` applies to medium devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
 }
