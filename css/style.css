@@ -1078,23 +1078,62 @@ form button {
   .tour {
     padding: 10px 20px 10px 20px;
   }
-  .form > label {
-    padding: 10px;
-  }
   .label-lg {
-    width: 30%;
+    width: 320px;
+  }
+  .label-lg > select {
+    font-size: 15px;
   }
   .contacts-box {
-    padding: 27px 10px;
-    gap: 25px;
+    padding: 30px 30px;
   }
-  .tour {
-    margin: 26px 0 35px;
+  .contacts-img {
+    width: 50%;
+    height: auto;
   }
-  
+  .contacts-item {
+    padding: 15px 0;
+  }
+  .footer-text {
+    line-height: 2;
+  }
 }
 /* // `md` applies to medium devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
+  .container {
+    max-width: 720px;
+  }
+  .logo-img {
+    width: 70%;
+    height: auto;
+  }
+  .link-grey {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  .header-bootom {
+    margin-top: 20px;
+  }
+  .header-top-wrap {
+    gap: 5px;
+  }
+  .header-bootom {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .header-btn-wrap {
+    gap: 60px;
+  }
+  .section-title {
+    font-size: 24px;
+  }
+  .hero-heading {
+    font-size: 16px;
+  }
 }
 
 /* // `sm` applies to small devices (portrait phones, less than 576px) */
