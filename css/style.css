@@ -1171,8 +1171,15 @@ form button {
   .contacts-box {
     padding: 14px 10px;
   }
+  .btn {
+    padding: 14px 14px;
+  }
+  .contacts-box {
+    display: flex;
+    flex-direction: column;
+  }
   .contacts-img {
-    width: 50%;
+    width: 100%;
     height: auto;
   }
 }
