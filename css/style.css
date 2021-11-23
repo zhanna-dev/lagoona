@@ -1134,6 +1134,47 @@ form button {
   .hero-heading {
     font-size: 16px;
   }
+  .hero {
+    padding: 15px 10px;
+  }
+  .hero-subheading {
+    font-size: 15px;
+    margin-bottom: 2px;
+  }
+  .hero-title-box {
+    bottom: -38px;
+  }
+  .text {
+    line-height: 1.5;
+  }
+  .services-card-img {
+    width: 100%;
+    height: auto;
+  }
+  .benefits-card {
+    width: 48%;
+    padding: 20px;
+  }
+  .hosting-card {
+    width: 48%;
+  }
+  .hosting-card-text {
+    padding: 15px;
+  }
+  .link-white-lg::after {
+    margin-left: -201px;
+  }
+  .link-white-lg {
+    left: 35px;
+    font-size: 15px;
+  }
+  .contacts-box {
+    padding: 14px 10px;
+  }
+  .contacts-img {
+    width: 50%;
+    height: auto;
+  }
 }
 
 /* // `sm` applies to small devices (portrait phones, less than 576px) */
