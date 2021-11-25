@@ -1105,6 +1105,18 @@ form button {
   .container {
     max-width: 100%;
   }
+  h1 {
+    font-size: 36px;
+  }
+  .link {
+    padding: 15px 10px;
+  }
+  .header-link {
+    font-size: 24px;
+  }
+  .btn {
+    padding: 14px 9px;
+  }
   .header-top {
     display: flex;
     flex-direction: column;
@@ -1124,6 +1136,16 @@ form button {
   .header-nav-items {
     display: flex;
     flex-direction: column;
+    align-items: center;
+  }
+  .text {
+    line-height: 1.5;
+    font-size: 18px;
+  }
+  .header-btn-wrap {
+    flex-direction: column;
+    gap: 20px;
+    display: flex;
     align-items: center;
   }
   .header-nav-items {
@@ -1156,6 +1178,9 @@ form button {
   }
   .hero-title-box {
     bottom: 0px;
+  }
+  .about {
+    padding: 5px 5px;
   }
   .services-card {
     width: 100%;
@@ -1210,7 +1235,7 @@ form button {
     gap: 28px;
   }
   .btn-contacts {
-    margin-top: 25px;
+    margin-top: 35px;
   }
   .container {
     max-width: 100%;
